@@ -9,8 +9,11 @@ public enum HeroClass
     Archer
 }
 
+[ExecuteAlways]
+[RequireComponent(typeof(Rigidbody))]
 public class Hero : MonoBehaviour
 {
+    [Tooltip("Hero class to choose")]
     [SerializeField]
     private HeroClass HeroClass;
 
@@ -22,6 +25,11 @@ public class Hero : MonoBehaviour
 
     [SerializeField]
     private int ArrowDamage;
+
+    void Update()
+    {
+        Debug.Log("Update");
+    }
 
     public void Move()
     {
