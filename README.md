@@ -8,8 +8,8 @@
 
 ## :eyes: Overview 
 <div>
-  <img src="./Docs/screenshots/example1.png" width="auto" height="400px"/>
-  <img src="./Docs/screenshots/example2.png" width="auto" height="400px"/>
+  <img src="./Docs/screenshots/example1.png" width="400px" height="auto"/>
+  <img src="./Docs/screenshots/example2.png" width="400px" height="auto"/>
 </div>
 
 ## :open_book: About 
